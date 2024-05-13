@@ -1,0 +1,189 @@
+.playBtn {
+    font-family: Didot;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    
+}
+
+.playBtn:hover {
+    background-color: #cec9c9;
+}
+
+.hidden {
+    display: none;
+}
+
+form {
+    margin-top: 30%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    font-family: Didot;
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+
+}
+
+#startValues {
+    font-family: Didot;
+    font-size: 20px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.computer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 75px;
+}
+
+.player {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.computer-text {
+    font-family: Didot;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.player-text {
+    font-family: Didot;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 50px;
+
+}
+
+.card {
+  width: 110px;
+  height: 160px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  position: relative;
+  font-family: 'Didot';
+  color: #333;
+  display: inline-block;
+}
+
+.card-corner {
+  position: absolute;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.card-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
+.top {
+  top: 0;
+  left: 0;
+}
+
+.bottom {
+  bottom: 0;
+  right: 0;
+  transform: rotate(180deg);
+}
+
+body {
+    background-color: #0d4919;
+    font-family: Didot;
+}
+
+.flipped {
+    background-color: rgb(149, 12, 12);
+}
+
+.hit {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-family: Didot;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-right: 5px;
+}
+
+.stand {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-family: Didot;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.outcome {
+    font-family: Didot;
+    color: red;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 50px;
+}
